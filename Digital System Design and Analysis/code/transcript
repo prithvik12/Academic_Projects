@@ -1,0 +1,100 @@
+# //  ModelSim SE-64 6.6g May 23 2012 Linux 3.10.0-1160.80.1.el7.x86_64
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project array_mult_with_expr_cal
+# 
+#  
+# Compile of and_gate.vhd was successful.
+# Compile of full_adder_1bit.vhd was successful.
+# Compile of not_gate.vhd was successful.
+# Compile of or_gate.vhd was successful.
+# Compile of tb_full_adder_1bit.vhd was successful.
+# Compile of xor_gate.vhd was successful.
+# Compile of half_adder.vhd was successful.
+# Compile of tb_half_adder.vhd was successful.
+# Compile of partial_product_creation.vhd was successful.
+# Compile of array_multiplier_8bit.vhd was successful.
+# Compile of tb_array_8x8_mult.vhd was successful.
+# Compile of divide_by_4_unit.vhd was successful.
+# Compile of increment_by_1_unit.vhd was successful.
+# Compile of register_8bit.vhd was successful.
+# Compile of register_16bit.vhd was successful.
+# Compile of tb_divide_by_4_unit.vhd was successful.
+# Compile of tb_increment_by_1_unit.vhd was successful.
+# Compile of tb_register_1bit.vhd was successful.
+# Compile of tb_register_8bit.vhd was successful.
+# Compile of expression_calculator_top_level.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of tb_top_level_manual.vhd was successful.
+# 22 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.tb_expression_calculator_top_level
+# vsim -voptargs=+acc work.tb_expression_calculator_top_level 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_expression_calculator_top_level(tb_expression_calculator_top_level_arch)#1
+# Loading work.expression_calculator_top_level(expression_calculator_top_level_arch)#1
+# Loading work.register_8bit(register_8bit_arch)#1
+# Loading work.array_multiplier_8bit(array_multiplier_8bit_arch)#1
+# Loading work.partial_product_creation(partial_product_creation_arch)#1
+# Loading work.and_gate(behavioral)#1
+# Loading work.half_adder(half_adder_arch)#1
+# Loading work.xor_gate(behavioral)#1
+# Loading work.full_adder_1bit(full_adder_1bit_arch)#1
+# Loading work.or_gate(behavioral)#1
+# Loading work.divide_by_4_unit(concat_arch_divide_by_4_unit)#1
+# Loading work.increment_by_1_unit(increment_by_1_unit_arch)#1
+# Loading work.register_16bit(register_16bit_arch)#1
+add wave sim:/tb_expression_calculator_top_level/*
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_expression_calculator_top_level/uut/stage_3_increment_by_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_expression_calculator_top_level/uut/stage_3_increment_by_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 7  Instance: /tb_expression_calculator_top_level/uut/stage_3_increment_by_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 12  Instance: /tb_expression_calculator_top_level/uut/stage_3_increment_by_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 13  Instance: /tb_expression_calculator_top_level/uut/stage_3_increment_by_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 16  Instance: /tb_expression_calculator_top_level/uut/stage_3_increment_by_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 19  Instance: /tb_expression_calculator_top_level/uut/stage_3_increment_by_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 20  Instance: /tb_expression_calculator_top_level/uut/stage_3_increment_by_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 21  Instance: /tb_expression_calculator_top_level/uut/stage_3_increment_by_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 22  Instance: /tb_expression_calculator_top_level/uut/stage_3_increment_by_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 23  Instance: /tb_expression_calculator_top_level/uut/stage_3_increment_by_1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit
