@@ -1,4 +1,4 @@
-Project name: Jtag with multiplier
+Project name: JTAG with multiplier
 Authors: Rushik & Prithvik 
 --------------------------------------
 
