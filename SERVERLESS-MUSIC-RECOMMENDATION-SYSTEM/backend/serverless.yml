@@ -1,0 +1,72 @@
+service: sls-almusiqaa-backend-v2
+#
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+  region: us-east-1
+  stage: prod-env
+  memorySize: 512
+  timeout: 7
+  endpointType: regional
+  iam:
+    role: arn:aws:iam::252960491156:role/almusiqaa-login-backend
+
+functions:
+  login:
+    handler: login.login
+    layers:
+      - arn:aws:lambda:us-east-1:252960491156:layer:npm:2
+    description: POST /login
+    events:
+      - http:
+          path: login
+          method: post
+          cors:
+            origin: "*"
+
+  register:
+    handler: register.register
+    layers:
+      - arn:aws:lambda:us-east-1:252960491156:layer:npm:2
+    description: POST /register
+    events:
+      - http:
+          path: register
+          method: post
+          cors:
+            origin: "*"
+
+  generateToken:
+    handler: auth.generateToken
+    layers:
+      - arn:aws:lambda:us-east-1:252960491156:layer:npm:2
+    environment:
+      JWT_SECRET: almusiqaa
+
+  util:
+    handler: util.util
+
+  lambda_handler:
+    handler: ml_engine.lambda_handler
+    description: Recommendation ML Engine
+    events:
+      - http:
+          path: recommend
+          method: post
+          cors:
+            origin: "*"
+    runtime: python3.7
+    memorySize: 512
+    timeout: 600
+    ephemeralStorageSize: 1024
+    fileSystemConfig:
+      localMountPath: /mnt/efs
+      arn: arn:aws:elasticfilesystem:us-east-1:252960491156:access-point/fsap-0115b0eed9a888016
+    vpc:
+      securityGroupIds:
+        - sg-08b731fea8240ca05
+      subnetIds:
+        - subnet-081a4a4e31b93b5cb
+        - subnet-00d1906c7957c831f
