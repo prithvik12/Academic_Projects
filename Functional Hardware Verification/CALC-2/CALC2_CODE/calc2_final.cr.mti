@@ -1,0 +1,480 @@
+/nfs/home/a/a_gadda/CALC2_cov/alu_input_stage.v {0 {vlog -work work -vopt -sv /nfs/home/a/a_gadda/calc2/top.sv
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+-- Compiling program calc2_test
+** Warning: calc2_scoreboard.sv(258): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(259): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(260): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(261): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(262): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(263): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(275): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(276): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(277): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(278): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(279): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(280): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(298): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(299): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(300): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(301): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(302): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(303): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(338): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(339): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(340): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(341): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(342): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(343): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(355): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(356): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(357): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(358): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(359): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(360): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(378): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(379): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(380): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(381): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(382): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(383): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(418): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(419): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(420): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(421): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(422): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(423): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(435): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(436): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(437): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(438): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(439): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(440): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(458): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(459): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(460): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(461): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(462): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(463): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(497): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(498): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(499): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(500): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(501): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(502): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(514): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(515): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(516): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(517): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(518): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(519): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(537): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(538): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(539): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(540): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(541): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(542): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+-- Compiling module top
+
+Top level modules:
+	top
+** Warning: (vlog-6) -- Waiting for lock by "unknown". Lockfile is "/nfs/home/a/a_gadda/CALC2_cov/work/_lock".
+** Fatal: (SIGINT) Compile interrupted.
+** Fatal: (SIGINT) Compile interrupted.
+** Error: Verilog Compiler exiting
+** Error: Verilog Compiler exiting
+
+} {83.0 85.0} {}} /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv {2 {vlog -work work -vopt -sv /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(258): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(259): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(260): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(261): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(262): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(263): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(275): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(276): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(277): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(278): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(279): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(280): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(298): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(299): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(300): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(301): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(302): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(303): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(338): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(339): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(340): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(341): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(342): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(343): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(355): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(356): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(357): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(358): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(359): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(360): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(378): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(379): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(380): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(381): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(382): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(383): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(418): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(419): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(420): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(421): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(422): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(423): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(435): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(436): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(437): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(438): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(439): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(440): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(458): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(459): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(460): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(461): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(462): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(463): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(497): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(498): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(499): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(500): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(501): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(502): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(514): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(515): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(516): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(517): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(518): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(519): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(537): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(538): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(539): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(540): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(541): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: /nfs/home/a/a_gadda/calc2/calc2_scoreboard.sv(542): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+
+Top level modules:
+	--none--
+
+} {} {}} /nfs/home/a/a_gadda/calc2/calc2_master.sv {1 {vlog -work work -vopt -sv /nfs/home/a/a_gadda/calc2/calc2_master.sv
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+
+Top level modules:
+	--none--
+
+} {} {}} /nfs/home/a/a_gadda/calc2/SV_RAND_CHECK.sv {1 {vlog -work work -vopt -sv /nfs/home/a/a_gadda/calc2/SV_RAND_CHECK.sv
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+
+} {} {}} /nfs/home/a/a_gadda/calc2/shifter.v {1 {vlog -work work -vopt /nfs/home/a/a_gadda/calc2/shifter.v
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+
+Top level modules:
+
+} {} {}} /nfs/home/a/a_gadda/calc2/alu_output_stage.v {1 {vlog -work work -vopt /nfs/home/a/a_gadda/calc2/alu_output_stage.v
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+
+Top level modules:
+
+} {} {}} /nfs/home/a/a_gadda/calc2/calc2_generator.sv {1 {vlog -work work -vopt -sv /nfs/home/a/a_gadda/calc2/calc2_generator.sv
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+
+Top level modules:
+	--none--
+
+} {} {}} /nfs/home/a/a_gadda/calc2/calc2_testcases.sv {1 {vlog -work work -vopt -sv /nfs/home/a/a_gadda/calc2/calc2_testcases.sv
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+
+} {} {}} /nfs/home/a/a_gadda/calc2/calc2_monitor.sv {1 {vlog -work work -vopt -sv /nfs/home/a/a_gadda/calc2/calc2_monitor.sv
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+
+Top level modules:
+	--none--
+
+} {} {}} /nfs/home/a/a_gadda/calc2/test_bench.sv {2 {vlog -work work -vopt -sv /nfs/home/a/a_gadda/calc2/test_bench.sv
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+-- Compiling program calc2_test
+** Warning: calc2_scoreboard.sv(258): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(259): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(260): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(261): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(262): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(263): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(275): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(276): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(277): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(278): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(279): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(280): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(298): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(299): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(300): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(301): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(302): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(303): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(338): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(339): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(340): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(341): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(342): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(343): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(355): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(356): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(357): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(358): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(359): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(360): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(378): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(379): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(380): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(381): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(382): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(383): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(418): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(419): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(420): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(421): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(422): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(423): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(435): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(436): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(437): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(438): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(439): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(440): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(458): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(459): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(460): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(461): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(462): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(463): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(497): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(498): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(499): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(500): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(501): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(502): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(514): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(515): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(516): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(517): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(518): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(519): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(537): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(538): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(539): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(540): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(541): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(542): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+
+Top level modules:
+	calc2_test
+
+} {} {}} /nfs/home/a/a_gadda/calc2/priority.v {1 {vlog -work work -vopt /nfs/home/a/a_gadda/calc2/priority.v
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+
+Top level modules:
+
+} {} {}} /nfs/home/a/a_gadda/calc2/calc2_interfaces.sv {1 {vlog -work work -vopt -sv /nfs/home/a/a_gadda/calc2/calc2_interfaces.sv
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+-- Compiling interface calc2_if
+
+Top level modules:
+	--none--
+
+} {} {}} /nfs/home/a/a_gadda/calc2/calc2_environment.sv {2 {vlog -work work -vopt -sv /nfs/home/a/a_gadda/calc2/calc2_environment.sv
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+** Warning: calc2_scoreboard.sv(258): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(259): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(260): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(261): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(262): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(263): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(275): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(276): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(277): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(278): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(279): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(280): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(298): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(299): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(300): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(301): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(302): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(303): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(338): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(339): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(340): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(341): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(342): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(343): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(355): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(356): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(357): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(358): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(359): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(360): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(378): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(379): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(380): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(381): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(382): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(383): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(418): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(419): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(420): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(421): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(422): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(423): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(435): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(436): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(437): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(438): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(439): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(440): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(458): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(459): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(460): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(461): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(462): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(463): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(497): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(498): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(499): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(500): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(501): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(502): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(514): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(515): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(516): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(517): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(518): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(519): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(537): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(538): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(539): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(540): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(541): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(542): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+
+Top level modules:
+	--none--
+
+} {} {}} /nfs/home/a/a_gadda/calc2/alu_input_stage.v {1 {vlog -work work -vopt /nfs/home/a/a_gadda/calc2/alu_input_stage.v
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+
+Top level modules:
+
+} {} {}} /nfs/home/a/a_gadda/calc2/calc2_transaction.sv {1 {vlog -work work -vopt -sv /nfs/home/a/a_gadda/calc2/calc2_transaction.sv
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+
+Top level modules:
+	--none--
+
+} {} {}} /nfs/home/a/a_gadda/calc2/holdreg.v {1 {vlog -work work -vopt /nfs/home/a/a_gadda/calc2/holdreg.v
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+
+Top level modules:
+
+} {} {}} /nfs/home/a/a_gadda/calc2/top.sv {2 {vlog -work work -vopt -sv /nfs/home/a/a_gadda/calc2/top.sv
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+-- Compiling program calc2_test
+** Warning: calc2_scoreboard.sv(258): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(259): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(260): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(261): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(262): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(263): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(275): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(276): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(277): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(278): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(279): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(280): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(298): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(299): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(300): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(301): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(302): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(303): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(338): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(339): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(340): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(341): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(342): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(343): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(355): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(356): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(357): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(358): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(359): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(360): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(378): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(379): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(380): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(381): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(382): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(383): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(418): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(419): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(420): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(421): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(422): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(423): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(435): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(436): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(437): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(438): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(439): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(440): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(458): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(459): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(460): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(461): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(462): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(463): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(497): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(498): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(499): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(500): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(501): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(502): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(514): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(515): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(516): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(517): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(518): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(519): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(537): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(538): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(539): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(540): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(541): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+** Warning: calc2_scoreboard.sv(542): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} /nfs/home/a/a_gadda/calc2/calc2_top.v {1 {vlog -work work -vopt /nfs/home/a/a_gadda/calc2/calc2_top.v
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+-- Compiling module calc2_top
+
+Top level modules:
+	calc2_top
+
+} {} {}} /nfs/home/a/a_gadda/calc2/adder.v {1 {vlog -work work -vopt /nfs/home/a/a_gadda/calc2/adder.v
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+
+Top level modules:
+
+} {} {}} /nfs/home/a/a_gadda/calc2/mux_out.v {1 {vlog -work work -vopt /nfs/home/a/a_gadda/calc2/mux_out.v
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+
+Top level modules:
+
+} {} {}}
