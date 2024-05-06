@@ -7,3 +7,11 @@ Links for my Publications:-
 2. Vehicular Communication Establishment using NRF with Emergency Alert System-
 https://www.researchgate.net/publication/347076542_Vehicular_Communication_Establishment_using_NRF_with_Emergency_Alert_System
 
+3. AUTONOMOUS RAILWAY TRACK CRACK DETECTION & ACCIDENT PREVENTION SYSTEM-
+https://www.ijariit.com/manuscripts/v6i5/V6I5-1159.pdf
+
+4. WIRELESS COMMUNICATION ENABLED COAL MINE SAFETY, TRACKING AND MONITORING SYSTEM- 
+http://ijariie.com/AdminUploadPdf/WIRELESS_COMMUNICATION_ENABLED_COAL_MINE_SAFETY__TRACKING_AND_MONITORING_SYSTEM_ijariie13112.pdf
+
+
+
